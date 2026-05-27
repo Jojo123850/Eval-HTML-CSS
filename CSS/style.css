@@ -151,7 +151,7 @@ header{
 }
 
 /* SECTION 1 */
-#section1{
+#section1,#sec1page4{
 background-image:linear-gradient(color(display-p3 0.3 0.25 0.25), rgb(1 1 1 / 75%)), url(../img/onessaie.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -171,6 +171,7 @@ margin: auto;
         h2{
             padding-bottom: 20px;
             color: var(--color1);
+            text-align: start;
         }
         p{
             padding-bottom: 20px;
@@ -564,5 +565,27 @@ footer{
             }
             
         }
+    }
+}
+
+/* PAGE 3 */
+#sec1page4{
+    margin-bottom: 80px;
+    div{
+        text-align: center;
+        p{
+            padding-top: 20px;
+            color: var(--color1);
+        }
+    }
+    
+}
+#section3{
+    .hsec3{
+        padding-top: 80px;
+    }
+    .psec3{
+        padding-top: 40px;
+        text-align: center;
     }
 }
