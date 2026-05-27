@@ -111,6 +111,7 @@ ul{
                     &:hover {
                         background-color: var(--color3);
                         color: var(--color1);
+                        border-color: var(--color3);
                         }
                 }
             
@@ -320,6 +321,7 @@ header{
                 .check{
                     height: fit-content;
                     display: block;
+                    padding-top: 20px;
     
                 }
                 .check label {
@@ -345,7 +347,7 @@ footer{
         flex-wrap: wrap;
         padding: 20px;
 
-        a{
+        .logo{
         font-weight: 700;
         font-style: Bold;
         font-size: 24px;
@@ -359,7 +361,7 @@ footer{
         }
         .idiv{
             justify-self: end;
-            i{
+            a > i{
                 font-size: 17.077499389648438px;
                 border-color: var(--color3);
                 background-color: var(--color4);
