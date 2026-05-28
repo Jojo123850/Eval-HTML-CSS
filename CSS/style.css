@@ -4,15 +4,43 @@
 }
 
 /* GENERALITE */
-:root{
+/* :root{
     --color1:#FFFFFF;
     --color2:#000000;
     --color3:#bf4200;
     --color4: #F9FAFB;
+} */
+ /* :root {
+    --color1: #FAFAF7;
+    --color2: #1C2B1E;
+    --color3: #3A7D44;
+    --color4: #F0F4F0;
+} */
+ /* :root {
+    --color1: #FDFBFF;
+    --color2: #1A0F2E;
+    --color3: #7C3AED;
+    --color4: #F3EFFF;
+} */
+/* :root {
+    --color1: #F5D1BE;
+    --color2: #6667AB;
+    --color4: #7B337E;
+  --color3: #FDF3EB;
+    /* --color5: #210633; */
+
+:root {
+    --color1: #FFFFFF;
+    --color2: #E5E5E5;
+    --color3: #FCA311;
+    --color4: #14213D;
+    --color5: #000000;
+    --color6:#DB8084;
 }
 #burgerMenu{
     display: none;
 }
+
 a{
     text-decoration: none;
     color: var(--color2);
@@ -35,6 +63,10 @@ h1,h2,h3,label{
     font-family:"Playfair Display",sans-serif ;
 
 }
+h3, .btn1{
+    color: var(--color3);
+}
+
 label{
     font-size: 16px;
 }
@@ -135,7 +167,7 @@ header{
         align-items: center;
         padding: 20px;
         h2{
-            color: var(--color1);
+            color: var(--color2);
         }
         p{
                 color: var(--color1);
@@ -152,7 +184,7 @@ header{
 
 /* SECTION 1 */
 #section1,#sec1page4{
-background-image:linear-gradient(color(display-p3 0.3 0.25 0.25), rgb(1 1 1 / 75%)), url(../img/onessaie.jpg);
+background-image:linear-gradient(color(display-p3 0.3 0.25 0.25), rgb(1 1 1 / 75%)), url(../img/thème.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -209,6 +241,7 @@ margin: auto;
         }
         p{
             padding-bottom: 20px;
+            color: var(--color5);
 
         }
     }
@@ -238,7 +271,7 @@ margin: auto;
 
 /* SECTION 3 */
 #section3{
-    background-color: var(--color4);
+    background-color: var(--color1);
     overflow-x: hidden;
     .secdiv3{
         max-width: 1536px;
@@ -256,7 +289,7 @@ margin: auto;
         gap: 40px;
         padding: 20px;
         article{
-            background-color: var(--color4);
+            background-color: var(--color5);
              /* height: 480px; */
             box-shadow: 0px 2px 40px -2px rgba(0, 0, 0, 20%);
             border-radius: 8px;
@@ -304,7 +337,7 @@ margin: auto;
     overflow-x: hidden;
      .div500{
          form{
-                background-color: var(--color4);
+                background-color: var(--color1);
                 padding: 40px 20px 40px 20px;
                 max-width: 572px;
                 margin: auto;
