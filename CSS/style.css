@@ -6,8 +6,8 @@
 :root {
     --color1: #FDF8F5;   
     --color2: #9D8FD6;   
-    --color3: #E8B4A0;   
-    --color4: #3D2C8D;   
+    --color3:#C9974A;   
+    --color4:  #2A2060;   
     --color5: #1A1230;   
     --color6: #DB8084;   
 }
@@ -30,12 +30,11 @@ ul{
     padding-left: 0;
 }
 
-/* Typographie — Inter pour le corps */
 p, a{
     font-family: "Inter", sans-serif;
 }
 
-/* Typographie — Outfit pour les titres */
+
 h1, h2, h3, label{
     font-family: "Outfit", sans-serif;
 }
