@@ -1,41 +1,16 @@
-*{
+ *{
     margin: 0;
     scroll-behavior: smooth;
 }
 
 /* GENERALITE */
-/* :root{
-    --color1:#FFFFFF;
-    --color2:#000000;
-    --color3:#bf4200;
-    --color4: #F9FAFB;
-} */
- /* :root {
-    --color1: #FAFAF7;
-    --color2: #1C2B1E;
-    --color3: #3A7D44;
-    --color4: #F0F4F0;
-} */
- /* :root {
-    --color1: #FDFBFF;
-    --color2: #1A0F2E;
-    --color3: #7C3AED;
-    --color4: #F3EFFF;
-} */
-/* :root {
-    --color1: #F5D1BE;
-    --color2: #6667AB;
-    --color4: #7B337E;
-  --color3: #FDF3EB;
-    /* --color5: #210633; */
 
 :root {
-    --color1: #FFFFFF;
-    --color2: #E5E5E5;
-    --color3: #FCA311;
-    --color4: #14213D;
-    --color5: #000000;
-    --color6:#DB8084;
+--color1: #FFFFFF  ; 
+--color2: #6B7D9C   ;
+--color3: #2EC4B6   ;
+--color4: #1A2A40   ;
+--color5: #16213E   ;
 }
 #burgerMenu{
     display: none;
@@ -621,4 +596,6 @@ footer{
         padding-top: 40px;
         text-align: center;
     }
-}
+} 
+
+
